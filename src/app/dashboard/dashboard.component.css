@@ -1,0 +1,50 @@
+app-card{
+    width: 100%;
+    height: 100%;
+}
+
+.loading-card-placeholder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    padding: 3.4rem 0rem 1.2rem 0rem;
+    border-radius: 0.4rem;
+    background-color: #00000011;
+}
+
+.loading-card-placeholder .item{
+    display: block;
+    background-color: #00000011;
+}
+
+.loading-card-placeholder .item-1{
+    width: 100%;
+    height: 60%;
+}
+
+.loading-card-placeholder .item-2{
+    width: 92%;
+    height: 25%;
+    border-radius: 0.3rem;
+}
+
+.loading-card-placeholder .item-3{
+    display: flex;
+    width: 92%;
+    height: 10%;
+}
+
+.loading-card-placeholder .item-3 .subitem{
+    width: 14%;
+    height: 100%;
+    display: block;
+    border-radius: 0.3rem;
+    background-color: #00000011;
+}
+
+.loading-card-placeholder .item-3 .subitem:nth-of-type(1){
+    margin-right: 0.6rem;
+}

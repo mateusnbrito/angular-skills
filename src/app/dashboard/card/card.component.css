@@ -1,3 +1,41 @@
 .example-card {
-    max-width: 400px;
-  }
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+  overflow: hidden;
+}
+
+.example-card .img-wrapper{
+  width: 100%;
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.example-card .img-wrapper img{
+  width: 100%;
+  margin: 0px;
+}
+
+mat-card-content{
+  margin-bottom: 0rem;
+  padding: 1rem;
+}
+
+mat-card-actions{
+  margin: auto 0rem 0rem 0rem;
+  padding: 0rem;
+}
+
+mat-card-actions button{
+  margin: 0rem;
+}
+
+mat-card > mat-card-actions:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 0rem;
+}
