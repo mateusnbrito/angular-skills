@@ -2,6 +2,22 @@ p {
   font-family: Lato;
 }
 
+h3{
+  width: fit-content;
+  margin: 0 auto 1rem auto;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #003F5C;
+  color: #FFFFFF;
+}
+
+h3 span{
+  font-size: 18px;
+  font-weight: 600;
+}
+
 app-dashboard{
   display: grid;
   grid-template-rows: auto;

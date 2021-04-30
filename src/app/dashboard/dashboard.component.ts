@@ -11,14 +11,6 @@ export class DashboardComponent implements OnInit {
   cards: Array<any>;
 
   constructor(private httpClient: HttpClient) {
-    // this.cards = [
-    //   { id: undefined, name: undefined, description: undefined, pic: undefined, likes: undefined },
-    //   { id: undefined, name: undefined, description: undefined, pic: undefined, likes: undefined },
-    //   { id: undefined, name: undefined, description: undefined, pic: undefined, likes: undefined },
-    //   { id: undefined, name: undefined, description: undefined, pic: undefined, likes: undefined },
-    //   { id: undefined, name: undefined, description: undefined, pic: undefined, likes: undefined },
-    //   { id: undefined, name: undefined, description: undefined, pic: undefined, likes: undefined }
-    // ]
   }
 
   ngOnInit() {

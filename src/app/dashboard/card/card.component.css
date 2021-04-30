@@ -21,6 +21,14 @@
   margin: 0px;
 }
 
+/* mat-card-header .mat-card-header-text {
+  margin: 0rem 0rem 0rem 1rem;
+} */
+
+.mat-card-header .mat-card-title{
+  margin-bottom: 0px;
+}
+
 mat-card-content{
   margin-bottom: 0rem;
   padding: 1rem;
@@ -38,4 +46,12 @@ mat-card-actions button{
 mat-card > mat-card-actions:last-child {
   margin-bottom: 0px;
   padding-bottom: 0rem;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.purple{
+  background-color: purple;
 }
