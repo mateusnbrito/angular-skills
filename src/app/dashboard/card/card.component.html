@@ -13,7 +13,7 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button [ngClass]="{'blue': card.likes >= 5, 'purple': card.likes >= 10}" (click)="onLike(card)">LIKE {{card.likes}}</button>
-    <button mat-button (click)="onShare(card)">SHARE</button>
+    <button mat-button class="mat-card-button" [ngClass]="{'blue': card.likes >= 5, 'purple': card.likes >= 10}" (click)="onLike(card)">LIKE {{card.likes}}</button>
+    <button mat-button class="mat-card-button" (click)="onShare(card)">SHARE</button>
   </mat-card-actions>
 </mat-card>

@@ -24,8 +24,4 @@ export class CardService {
     console.error('An error occurred', error);
     return Promise.reject(error.message || error);
  }
-
-  // updateCard(card: Icard): Observable<Icard> {
-  //   return this.httpClient.put<Icard>(`/api/skills/${card.id}`, card, this.httpOptions);
-  // }
 }

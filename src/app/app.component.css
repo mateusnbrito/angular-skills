@@ -3,13 +3,13 @@ p {
 }
 
 h3{
-  width: fit-content;
-  margin: 0 auto 1rem auto;
-  padding: 1rem;
-  border-radius: 4px;
+  width: 100%;
+  margin: 0rem;
+  padding: 1rem 0rem;
   font-size: 20px;
   font-weight: 700;
-  background-color: #003F5C;
+  text-align: center;
+  background-color: #FF0000;
   color: #FFFFFF;
 }
 
@@ -23,6 +23,7 @@ app-dashboard{
   grid-template-rows: auto;
   justify-items: center;
   gap: 1rem;
+  padding: 1rem;
 }
 
 @media (max-width: 959px){
