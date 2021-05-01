@@ -1,5 +1,6 @@
 # Angular Skill Test | Mateus Brito
 
-Teste de habilidades proposto pela Perinity
+INSTRUÇÕES
 
-Entregue no dia 30/04/2021
+* 1. Executar o comando <code>npm install</code>
+* 2. Executar o comando <code>ng serve</code>
